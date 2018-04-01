@@ -8,7 +8,7 @@
 
 import UIKit
 import SWRevealViewController
-
+import FTIndicator
 
 class ViewController: UIViewController,MAMapViewDelegate,AMapSearchDelegate, AMapNaviWalkManagerDelegate {
   
@@ -183,7 +183,7 @@ class ViewController: UIViewController,MAMapViewDelegate,AMapSearchDelegate, AMa
     
     //显示所有图标导致地图缩放
     mapView.showAnnotations([pin], animated: true)
-    
+    searchBikeNearby()
   }
   
   /// 自定义图钉视图
@@ -277,18 +277,18 @@ class ViewController: UIViewController,MAMapViewDelegate,AMapSearchDelegate, AMa
       
       if $0.distance < 100{
         print($0.name)
-        annotation.title = "aaa"
+        annotation.title = $0.name
         annotation.subtitle = ""
       } else {
-        annotation.title = "bbb"
-        annotation.subtitle = "ccc"
+        annotation.title = $0.name
+        annotation.subtitle = "Too Far"
       }
       
       return annotation
     }
    // let a = pin
 
-   // mapView.removeAnnotations(mapView.annotations)
+    mapView.removeAnnotations(mapView.annotations)
 
     
     mapView.addAnnotations(annotations)
@@ -310,6 +310,27 @@ class ViewController: UIViewController,MAMapViewDelegate,AMapSearchDelegate, AMa
     
     let polyline = MAPolyline(coordinates: &coordinates, count: UInt(coordinates.count))
     mapView.add(polyline)
+    
+    //提示距离和用时
+    let walkMinute = walkManager.naviRoute!.routeTime / 60
+    
+    var timeDesc = "less than 1min"
+    
+    if walkMinute > 0{
+      timeDesc = walkMinute.description + "mins"
+    }
+    
+    let hintTitle = "walk:  " + timeDesc
+    let hintSubTitle = "Distance:  " + walkManager.naviRoute!.routeLength.description + "meters"
+    
+//    let ac = UIAlertController(title: hintTitle, message: hintSubTitle, preferredStyle: .alert)
+ //   let action = UIAlertAction(title: "ok", style: .default, handler: nil)
+    
+//    ac.addAction(action)
+//    self.present(ac, animated: true, completion: nil)
+//
+      FTIndicator.setIndicatorStyle(.dark)
+      FTIndicator.showNotification(with: #imageLiteral(resourceName: "WXCircle_Normal"), title: hintTitle, message: hintSubTitle)
   }
   func walkManager(_ walkManager: AMapNaviWalkManager, onCalculateRouteFailure error: Error) {
     print("fail",error)
