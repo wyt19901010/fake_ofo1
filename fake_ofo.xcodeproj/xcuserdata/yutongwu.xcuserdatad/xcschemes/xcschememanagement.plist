@@ -7,7 +7,25 @@
 		<key>fake_ofo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>28BB57A0206DF86000511F85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28BB57B4206DF86000511F85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28BB57BF206DF86000511F85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

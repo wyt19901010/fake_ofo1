@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267EC5A5AA3CADB0863D1ECF /* Pods_fake_ofoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB7C6A216FF86643BAD24E6 /* Pods_fake_ofoUITests.framework */; };
 		28BB57A5206DF86000511F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB57A4206DF86000511F85 /* AppDelegate.swift */; };
 		28BB57A7206DF86000511F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB57A6206DF86000511F85 /* ViewController.swift */; };
 		28BB57AA206DF86000511F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BB57A8206DF86000511F85 /* Main.storyboard */; };
-		28BB57AC206DF86000511F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BB57AB206DF86000511F85 /* Assets.xcassets */; };
 		28BB57AF206DF86000511F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BB57AD206DF86000511F85 /* LaunchScreen.storyboard */; };
 		28BB57BA206DF86000511F85 /* fake_ofoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB57B9206DF86000511F85 /* fake_ofoTests.swift */; };
 		28BB57C5206DF86000511F85 /* fake_ofoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB57C4206DF86000511F85 /* fake_ofoUITests.swift */; };
+		28BB57D3206E043700511F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BB57AB206DF86000511F85 /* Assets.xcassets */; };
+		28BB57D5206E054F00511F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BB57D4206E054F00511F85 /* Images.xcassets */; };
+		28BB57E4206E3B4D00511F85 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB57E3206E3B4D00511F85 /* WebViewController.swift */; };
+		28CD83DA206FFAFA005545E8 /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD83D9206FFAFA005545E8 /* MyPinAnnotation.swift */; };
+		28F1D416206E6A1A00768111 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1D415206E6A1A00768111 /* MenuController.swift */; };
+		28F1D41A206E7A5300768111 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1D419206E7A5300768111 /* TalkViewController.swift */; };
+		63EA97262F54F5F7EF20AA0B /* Pods_fake_ofo_fake_ofoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0644682E29454A4D89281E64 /* Pods_fake_ofo_fake_ofoTests.framework */; };
+		666A83CCB8AF8A8EDA466D02 /* Pods_fake_ofo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA24C781E1200065861C1E8 /* Pods_fake_ofo.framework */; };
+		721ADF90C147B301738D9D74 /* Pods_fake_ofoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB71D5A03B625ABAC048AD1 /* Pods_fake_ofoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0644682E29454A4D89281E64 /* Pods_fake_ofo_fake_ofoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_ofo_fake_ofoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A549F228E3FC245B087A04 /* Pods-fake_ofoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofoTests/Pods-fake_ofoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		231CF1C492E1D48EA6A09ABB /* Pods-fake_ofo-fake_ofoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofo-fake_ofoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofo-fake_ofoTests/Pods-fake_ofo-fake_ofoTests.release.xcconfig"; sourceTree = "<group>"; };
 		28BB57A1206DF86000511F85 /* fake_ofo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fake_ofo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BB57A4206DF86000511F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28BB57A6206DF86000511F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,21 @@
 		28BB57C0206DF86000511F85 /* fake_ofoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fake_ofoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BB57C4206DF86000511F85 /* fake_ofoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fake_ofoUITests.swift; sourceTree = "<group>"; };
 		28BB57C6206DF86000511F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BB57D4206E054F00511F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28BB57E3206E3B4D00511F85 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		28CD83D9206FFAFA005545E8 /* MyPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		28F1D410206E595F00768111 /* fake_ofo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fake_ofo-Bridging-Header.h"; sourceTree = "<group>"; };
+		28F1D415206E6A1A00768111 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		28F1D419206E7A5300768111 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
+		4465328D5301C2A70D012438 /* Pods-fake_ofoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofoTests/Pods-fake_ofoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BB71D5A03B625ABAC048AD1 /* Pods_fake_ofoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_ofoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EB95A9DBD12DFA234C5A95 /* Pods-fake_ofoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofoUITests/Pods-fake_ofoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		871B4AF5E601125858AD1B41 /* Pods-fake_ofoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofoUITests/Pods-fake_ofoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C6E55DAADFE62D42DF516F /* Pods-fake_ofo-fake_ofoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofo-fake_ofoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofo-fake_ofoTests/Pods-fake_ofo-fake_ofoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFA24C781E1200065861C1E8 /* Pods_fake_ofo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_ofo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81970C52F3C2BBE2E35ED8D /* Pods-fake_ofo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofo.release.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo.release.xcconfig"; sourceTree = "<group>"; };
+		F78AB0DDD2895FF53BE9F8B9 /* Pods-fake_ofo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fake_ofo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB7C6A216FF86643BAD24E6 /* Pods_fake_ofoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fake_ofoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666A83CCB8AF8A8EDA466D02 /* Pods_fake_ofo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721ADF90C147B301738D9D74 /* Pods_fake_ofoTests.framework in Frameworks */,
+				63EA97262F54F5F7EF20AA0B /* Pods_fake_ofo_fake_ofoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267EC5A5AA3CADB0863D1ECF /* Pods_fake_ofoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				28BB57B8206DF86000511F85 /* fake_ofoTests */,
 				28BB57C3206DF86000511F85 /* fake_ofoUITests */,
 				28BB57A2206DF86000511F85 /* Products */,
+				28BB57D6206E188C00511F85 /* Frameworks */,
+				CE05BF2B21B193DB55B09A16 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +132,16 @@
 			children = (
 				28BB57A4206DF86000511F85 /* AppDelegate.swift */,
 				28BB57A6206DF86000511F85 /* ViewController.swift */,
+				28CD83D9206FFAFA005545E8 /* MyPinAnnotation.swift */,
+				28BB57E3206E3B4D00511F85 /* WebViewController.swift */,
 				28BB57A8206DF86000511F85 /* Main.storyboard */,
+				28F1D419206E7A5300768111 /* TalkViewController.swift */,
+				28F1D415206E6A1A00768111 /* MenuController.swift */,
 				28BB57AB206DF86000511F85 /* Assets.xcassets */,
 				28BB57AD206DF86000511F85 /* LaunchScreen.storyboard */,
 				28BB57B0206DF86000511F85 /* Info.plist */,
+				28BB57D4206E054F00511F85 /* Images.xcassets */,
+				28F1D410206E595F00768111 /* fake_ofo-Bridging-Header.h */,
 			);
 			path = fake_ofo;
 			sourceTree = "<group>";
@@ -125,6 +164,32 @@
 			path = fake_ofoUITests;
 			sourceTree = "<group>";
 		};
+		28BB57D6206E188C00511F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFA24C781E1200065861C1E8 /* Pods_fake_ofo.framework */,
+				4BB71D5A03B625ABAC048AD1 /* Pods_fake_ofoTests.framework */,
+				FFB7C6A216FF86643BAD24E6 /* Pods_fake_ofoUITests.framework */,
+				0644682E29454A4D89281E64 /* Pods_fake_ofo_fake_ofoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE05BF2B21B193DB55B09A16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F78AB0DDD2895FF53BE9F8B9 /* Pods-fake_ofo.debug.xcconfig */,
+				E81970C52F3C2BBE2E35ED8D /* Pods-fake_ofo.release.xcconfig */,
+				15A549F228E3FC245B087A04 /* Pods-fake_ofoTests.debug.xcconfig */,
+				4465328D5301C2A70D012438 /* Pods-fake_ofoTests.release.xcconfig */,
+				871B4AF5E601125858AD1B41 /* Pods-fake_ofoUITests.debug.xcconfig */,
+				66EB95A9DBD12DFA234C5A95 /* Pods-fake_ofoUITests.release.xcconfig */,
+				A1C6E55DAADFE62D42DF516F /* Pods-fake_ofo-fake_ofoTests.debug.xcconfig */,
+				231CF1C492E1D48EA6A09ABB /* Pods-fake_ofo-fake_ofoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28BB57C9206DF86000511F85 /* Build configuration list for PBXNativeTarget "fake_ofo" */;
 			buildPhases = (
+				D205CC928012CA8AD4EE3D85 /* [CP] Check Pods Manifest.lock */,
 				28BB579D206DF86000511F85 /* Sources */,
 				28BB579E206DF86000511F85 /* Frameworks */,
 				28BB579F206DF86000511F85 /* Resources */,
+				5C5C4B8BFBF33A725F392633 /* [CP] Embed Pods Frameworks */,
+				443F459DD93A872C9FA2B7CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28BB57CC206DF86000511F85 /* Build configuration list for PBXNativeTarget "fake_ofoTests" */;
 			buildPhases = (
+				EA3468DDBA66F22E8514AE64 /* [CP] Check Pods Manifest.lock */,
 				28BB57B1206DF86000511F85 /* Sources */,
 				28BB57B2206DF86000511F85 /* Frameworks */,
 				28BB57B3206DF86000511F85 /* Resources */,
+				D4F9DAC99DF9B32A1B6F8DD8 /* [CP] Embed Pods Frameworks */,
+				37AA1362960CC303A7531CBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28BB57CF206DF86000511F85 /* Build configuration list for PBXNativeTarget "fake_ofoUITests" */;
 			buildPhases = (
+				D5F989770E450D81A588F911 /* [CP] Check Pods Manifest.lock */,
 				28BB57BC206DF86000511F85 /* Sources */,
 				28BB57BD206DF86000511F85 /* Frameworks */,
 				28BB57BE206DF86000511F85 /* Resources */,
+				61050F6074662F43F913D7AA /* [CP] Embed Pods Frameworks */,
+				DA0B0CD75DF0CA24D37E93C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +267,13 @@
 				TargetAttributes = {
 					28BB57A0206DF86000511F85 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					28BB57B4206DF86000511F85 = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,7 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BB57AF206DF86000511F85 /* LaunchScreen.storyboard in Resources */,
-				28BB57AC206DF86000511F85 /* Assets.xcassets in Resources */,
+				28BB57D5206E054F00511F85 /* Images.xcassets in Resources */,
+				28BB57D3206E043700511F85 /* Assets.xcassets in Resources */,
 				28BB57AA206DF86000511F85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +335,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37AA1362960CC303A7531CBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofoTests/Pods-fake_ofoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		443F459DD93A872C9FA2B7CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5C4B8BFBF33A725F392633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofo/Pods-fake_ofo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61050F6074662F43F913D7AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofoUITests/Pods-fake_ofoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D205CC928012CA8AD4EE3D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fake_ofo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F9DAC99DF9B32A1B6F8DD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofo-fake_ofoTests/Pods-fake_ofo-fake_ofoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofoTests/Pods-fake_ofoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F989770E450D81A588F911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fake_ofoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0B0CD75DF0CA24D37E93C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fake_ofoUITests/Pods-fake_ofoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3468DDBA66F22E8514AE64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fake_ofoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28BB579D206DF86000511F85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CD83DA206FFAFA005545E8 /* MyPinAnnotation.swift in Sources */,
+				28F1D416206E6A1A00768111 /* MenuController.swift in Sources */,
 				28BB57A7206DF86000511F85 /* ViewController.swift in Sources */,
+				28BB57E4206E3B4D00511F85 /* WebViewController.swift in Sources */,
 				28BB57A5206DF86000511F85 /* AppDelegate.swift in Sources */,
+				28F1D41A206E7A5300768111 /* TalkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +673,20 @@
 		};
 		28BB57CA206DF86000511F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78AB0DDD2895FF53BE9F8B9 /* Pods-fake_ofo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VWT8T2J8SF;
 				INFOPLIST_FILE = fake_ofo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.big.Town.fake-ofo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fake_ofo/fake_ofo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +694,19 @@
 		};
 		28BB57CB206DF86000511F85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81970C52F3C2BBE2E35ED8D /* Pods-fake_ofo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VWT8T2J8SF;
 				INFOPLIST_FILE = fake_ofo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.big.Town.fake-ofo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fake_ofo/fake_ofo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +714,7 @@
 		};
 		28BB57CD206DF86000511F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A549F228E3FC245B087A04 /* Pods-fake_ofoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +732,7 @@
 		};
 		28BB57CE206DF86000511F85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4465328D5301C2A70D012438 /* Pods-fake_ofoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +750,7 @@
 		};
 		28BB57D0206DF86000511F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871B4AF5E601125858AD1B41 /* Pods-fake_ofoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +767,7 @@
 		};
 		28BB57D1206DF86000511F85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EB95A9DBD12DFA234C5A95 /* Pods-fake_ofoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
